@@ -1,0 +1,8 @@
+#pip install -r requirement.txt
+opencv-python
+keyboard
+mediapipe
+numpy
+pygame
+tensorflow
+flask

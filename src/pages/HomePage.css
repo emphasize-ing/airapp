@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.homepage {
+    background: linear-gradient(135deg, #0d6efd, #8146ab); /* Blue to Dark Violet */
+    min-height: 100vh;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Create Button with Gradient */
+/* Create New Note Button */
+/* Create New Note Button */
+.btn-create {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    background: transparent;
+    cursor: pointer;
+    border: 5px solid #ffffff;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+  
+  /* Glowing Effect on Hover (Peacock Color) */
+  .btn-create:hover,
+.btn-create:focus {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+  
+
+/* Page Heading */
+.welcome-text {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* PDF List */
+.pdf-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* PDF Item (Card Style) */
+.pdf-item {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.pdf-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.pdf-content h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.pdf-date {
+    font-size: 14px;
+    color: gray;
+    margin: 5px 0;
+}
+
+/* Download Button */
+.btn-download {
+    background: linear-gradient(45deg, #1abc9c, #0d47a1);
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-download:hover {
+    background: linear-gradient(45deg, #19f998, #2267d6);
+    transform: translateY(-2px);
+}

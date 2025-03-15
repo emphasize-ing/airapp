@@ -1,0 +1,60 @@
+.second-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #0854c6, #38bdf8);
+  color: white;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.webcam-container {
+  flex: 4; /* Increased flex to allocate more space to the webcam container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: #d3d3d3;
+  border-radius: 20px;
+  padding: 10px; /* Added padding for better spacing */
+}
+
+.webcam-box {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0; /* Light gray for a placeholder effect */
+  border-radius: 10px;
+}
+
+.pdf-container {
+  flex: 0.6; /* Reduced flex to allocate less space to the PDF container */
+  margin-left: 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background: #0855d0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pdf-box {
+  width: 90%; /* Reduced width */
+  height: 400px; /* Retained height */
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-top: 10px;
+}
